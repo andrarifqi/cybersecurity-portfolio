@@ -1,0 +1,39 @@
+title: Cybersecurity Portfolio
+description: A showcase of my cybersecurity journey, projects, and skills
+theme: jekyll-theme-minimal
+logo: assets/images/profile.jpg
+show_downloads: false
+
+# Navigation
+header_pages:
+  - about.md
+  - skills.md
+  - projects.md
+  - certifications.md
+  - journey.md
+  - contact.md
+
+# Social Links
+github_username: andrarifqi
+linkedin_username: andrarifqi
+email: rifqiandra@gmail.com
+
+# Build settings
+markdown: kramdown
+plugins:
+  - jekyll-feed
+  - jekyll-seo-tag
+
+# Exclude files from processing
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - node_modules
+  - vendor
+  - .git
+
+# Custom settings
+author: Muhammad Rifqiandra
+author_bio: Cybersecurity enthusiast and continuous learner
+location: Your Location
+company: Your Current Company/School
