@@ -128,3 +128,8 @@ dist
 .yarn/build-state.yml
 .yarn/install-state.gz
 .pnp.*
+
+# Include assets directory
+!assets/
+!assets/img/
+!assets/img/*.png
